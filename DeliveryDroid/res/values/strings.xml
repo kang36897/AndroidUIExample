@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">DeliveryDroid</string>
+
+    <string-array name="choice_none">
+        <item>Hello World!</item>
+        <item>Smart Ass!</item>
+    </string-array>
+    <string-array name="choice_single">
+        <item>Bluto</item>
+        <item>Brian</item>
+        <item>Lulala</item>
+    </string-array>
+    <string-array name="choice_multiple">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>peach</item>
+        <item>orange</item>
+    </string-array>
+    <string-array name="restaurants">
+        <item>The Burger Place</item>
+        <item>Mick\'s Pizza</item>
+        <item>Four Buckets \'o Fruit</item>
+        <item>Sam\'s Sushi</item>
+    </string-array>
+
+</resources>
