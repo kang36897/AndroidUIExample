@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent" android:layout_width="fill_parent">
+<TextView android:id="@+id/question" 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="center|center_vertical"
+android:textSize="24sp"
+android:layout_marginBottom="12sp"
+android:text="Please waiting ..."/>
+<!-- 
+<LinearLayout android:id="@+id/answers" 
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+
+<Button android:id="@+id/yes"
+        android:text="Yes!"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+<Button android:id="@+id/no"
+        android:text="No!"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+<Button android:id="@+id/maybe"
+        android:text="Maybe!"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/> 
+</LinearLayout>-->
+<ListView android:id="@+id/answers"
+          android:layout_height="wrap_content"
+          android:layout_width="fill_parent"/>
+<Button android:id="@+id/skip"
+        android:text="Skip Question"
+        android:layout_marginTop="12sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+<Button android:id="@+id/view"
+        android:text="Feed Me!"
+        android:textSize="18sp"
+        android:textColor="#9d1111"
+        android:textStyle="bold"
+        android:shadowDx="0"
+        android:shadowDy="-3"
+        android:shadowColor="#fff"
+        android:shadowRadius="1.5"
+        android:layout_marginTop="12sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
