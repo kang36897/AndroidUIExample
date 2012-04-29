@@ -1,29 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World!</string>
-    <string name="app_name">DeliveryDroid</string>
+	<string name="hello">Hello World!</string>
+	<string name="app_name">DeliveryDroid</string>
 
-    <string-array name="choice_none">
-        <item>Hello World!</item>
-        <item>Smart Ass!</item>
-    </string-array>
-    <string-array name="choice_single">
-        <item>Bluto</item>
-        <item>Brian</item>
-        <item>Lulala</item>
-    </string-array>
-    <string-array name="choice_multiple">
-        <item>Apple</item>
-        <item>Banana</item>
-        <item>peach</item>
-        <item>orange</item>
-    </string-array>
-    <string-array name="restaurants">
-        <item>The Burger Place</item>
-        <item>Mick\'s Pizza</item>
-        <item>Four Buckets \'o Fruit</item>
-        <item>Sam\'s Sushi</item>
-    </string-array>
+	<string-array name="choice_none">
+		<item>Hello World!</item>
+		<item>Smart Ass!</item>
+	</string-array>
+	<string-array name="choice_single">
+		<item>Bluto</item>
+		<item>Brian</item>
+		<item>Lulala</item>
+	</string-array>
+	<string-array name="choice_multiple">
+		<item>Apple</item>
+		<item>Banana</item>
+		<item>peach</item>
+		<item>orange</item>
+	</string-array>
+	<string-array name="restaurants">
+		<item>The Burger Place</item>
+		<item>Mick\'s Pizza</item>
+		<item>Four Buckets \'o Fruit</item>
+		<item>Sam\'s Sushi</item>
+	</string-array>
+	<string-array name="fruits">
+		<item>apple</item>
+		<item>banana</item>
+		<item>blackberry</item>
+		<item>cherries</item>
+		<item>coconut</item>
+		<item>kiwi</item>
+		<item>lemon</item>
+		<item>lime</item>
+		<item>orange</item>
+		<item>peach</item>
+		<item>strawberry</item>
+		<item>watermelon</item>
+	</string-array>
+	<string-array name="sushi">
+		<item>Sashimi</item>
+		<item>Maki Roll </item>
+		<item>Nigiri </item>
+		<item>Oshi </item>
+		<item>California Roll </item>
+		<item>Fashion Sandwich</item>
+		<item>Hand Roll </item>
+	</string-array>
+	<string-array name="fishes">
+		<item>Tuna</item>
+		<item>Yellowtail</item>
+		<item>Snapper </item>
+		<item>Salmon</item>
+		<item>Eel</item>
+		<item>Sea Urchin </item>
+		<item> Squid</item>
+		<item> Shrimp </item>
+	</string-array>
+
+
+
 
 </resources>

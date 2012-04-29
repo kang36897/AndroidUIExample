@@ -36,6 +36,18 @@
                   <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".FourBucketsFruitActivity" >
+            <intent-filter >
+                <action android:name="com.packtpub.deliverydroid.FourBucketsFruitActivity" />
+                  <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SamSushiActivity" >
+            <intent-filter >
+                <action android:name="com.packtpub.deliverydroid.SamSushiActivity" />
+                  <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
