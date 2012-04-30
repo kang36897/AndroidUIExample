@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:constantSize="true">
+<item android:drawable="@drawable/ic_tab_selres"
+      android:state_selected="false"/>
+ <item android:drawable="@drawable/ic_tab_unselres"
+      android:state_selected="true"/>   
+    
+    
+
+</selector>

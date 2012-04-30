@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/review"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:textColor="#ffffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5" />
+
+        <TextSwitcher
+            android:id="@+id/reviews"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:inAnimation="@android:anim/fade_in"
+            android:outAnimation="@android:anim/fade_out" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/photos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Gallery
+            android:id="@+id/gallery"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:spacing="5dip" />
+
+        <ImageSwitcher
+            android:id="@+id/photo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:inAnimation="@android:anim/fade_in"
+            android:outAnimation="@android:anim/fade_out"
+           />
+        <!--
+             <ImageView
+            android:id="@+id/photo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerInside" />
+        -->
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/reservation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</FrameLayout>
