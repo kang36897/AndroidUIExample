@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<Gallery android:id="@+id/gallery" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginBottom="5dip"
+		android:layout_marginTop="5dip" android:spacing="5dip" />
+
+	<ImageSwitcher android:id="@+id/photo"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:inAnimation="@android:anim/fade_in" android:outAnimation="@android:anim/fade_out" />
+</merge>
