@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Chapter1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_camera_intent">CameraIntentActivity</string>
+    <string name="button">Capture a picture!</string>
+    <string name="button_display">Display a large picture!</string>
+     <string name="button_gallery">Go to the gallery!</string>
+    <string name="img_desctription">This is a image!</string>
+    <string name="title_activity_media_gallery">MediaGalleryActivity</string>
+
+</resources>
